@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import ViceBackground from './components/ViceBackground';
 import Hero from './components/Hero';
+import OrganizedBy from './components/OrganizedBy';
 import ArenaPillars from './components/ArenaPillars';
 import StatsGrid from './components/StatsGrid';
 import PastChapters from './components/PastChapters';
@@ -28,6 +29,7 @@ export default function App() {
       {/* Main Content Sections - Seamless Free-Flowing Layout */}
       <main>
         <Hero />
+        <OrganizedBy />
         <ArenaPillars />
         <StatsGrid />
         <PastChapters />
@@ -46,3 +48,4 @@ export default function App() {
     </div>
   );
 }
+
